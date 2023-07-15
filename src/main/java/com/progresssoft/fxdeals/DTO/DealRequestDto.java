@@ -23,6 +23,10 @@ public class DealRequestDto {
         this.amount = amount;
     }
 
+    public DealRequestDto() {
+
+    }
+
     public String getFromCurrency() {
         return fromCurrency;
     }

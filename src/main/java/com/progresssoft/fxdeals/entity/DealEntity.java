@@ -19,4 +19,44 @@ public class DealEntity {
     private LocalDateTime dealTime;
     @Column(nullable = false)
     private BigDecimal amount;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getFromCurrency() {
+        return fromCurrency;
+    }
+
+    public void setFromCurrency(String fromCurrency) {
+        this.fromCurrency = fromCurrency;
+    }
+
+    public String getToCurrency() {
+        return toCurrency;
+    }
+
+    public void setToCurrency(String toCurrency) {
+        this.toCurrency = toCurrency;
+    }
+
+    public LocalDateTime getDealTime() {
+        return dealTime;
+    }
+
+    public void setDealTime(LocalDateTime dealTime) {
+        this.dealTime = dealTime;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
 }
