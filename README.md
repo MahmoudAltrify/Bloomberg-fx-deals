@@ -50,7 +50,7 @@ _Below is an example of how you can instruct your audience on installing and set
       --header 'Accept: application/json' \
       --header 'Content-Type: application/json'
      ```
-  * Responce
+  * Response
     ```sh
     [{
     "id": 1,
@@ -61,7 +61,7 @@ _Below is an example of how you can instruct your audience on installing and set
     }]
      ```
     
-* Create new deal 
+* Create a new deal 
   * Request 
   ```sh
     curl --location 'http://localhost:8080/api/v1/deals' \
@@ -74,6 +74,12 @@ _Below is an example of how you can instruct your audience on installing and set
       }'
      ```
 
+### How to use
+* Makefile 
+  * make clean: Cleans the generated files and the Maven build.
+  * make compile: Compiles the Java source files using Maven.
+  * make package: Packages the application into a JAR file using Maven.
+  * make run: Runs the application using Maven and Spring Boot.
 <!-- LICENSE -->
 ## License
 
